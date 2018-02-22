@@ -14,9 +14,14 @@ int main()
     cout << "Ingrese el tercer numero" << endl;
     cin >> Num3;
     //Condicional
-    if (Num3= Num1+Num2)
+    if (Num1+Num2==Num3)
     {
-       cout<< "El tercer numero es igual a la suma de los dos primeros"<< endl;
+        cout<<" El tercer numero es igual a la suma de los dos primeros:" << Num3 << endl;
     }
-    return 0;
+        if (Num1+Num2!=Num3)
+        {
+        cout<<" El tercer numero no es igual a la suma de los dos primeros:" << Num3 << endl;
+        }
+
+
 } //Fin Algoritmo
