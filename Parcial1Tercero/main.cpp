@@ -5,21 +5,25 @@ using namespace std;
 int main()
 {
     //Declaracion de variables
-    float ImBruto=0,ImNeto=0;
+    float bruto=0,neto=0;
     //Declaracion datos de usuario
-    cout << "Ingrese el importe bruto"<< endl;
-    cin >> ImBruto;
-
-    if (ImBruto>15000)
+    cout << "Ingrese el importe bruto:  "<< endl;
+    cin >> bruto;
+    //Condicional
+    if (bruto>15000)
     {
-        ImBruto*0.16=ImNeto << ImNeto << endl;
-        cout<< "El importe Neto es:" << ImNeto << endl;
+
+    neto=bruto*0.16;
+
     }
-        if (ImBruto<15000)
-        {
-            ImBruto*0.10=ImNeto << ImNeto << endl;
-            cout<< "El importe Neto es:" << ImNeto << endl;
-        }
+    else
+    {
+
+    neto=bruto*0.1 ;
+
+    }
+
+    cout << "El importe neto es:  "<< bruto-neto;
 
     return 0;
-}
+} //Fin Algoritmo
